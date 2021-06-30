@@ -21,6 +21,6 @@ Constraints:
 """
 
 class Solution:
-    def isPerfectSquare(self, num: int) -> bool:
+    def is_perfect_square(self, num: int) -> bool:
         result = num ** 0.5
         return int(result) == float(result)

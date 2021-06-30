@@ -45,7 +45,7 @@ class ParkingSystem:
         self.medium = medium
         self.small = small
 
-    def addCar(self, carType: int) -> bool:
+    def add_car(self, carType: int) -> bool:
         if self.big == 0 and self.medium == 0 and self.small == 0:
             return False
 
